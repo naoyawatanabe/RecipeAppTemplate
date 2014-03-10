@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A4D05A18CD41660047DA9C /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A4D05918CD41660047DA9C /* RecipeDetailViewController.m */; };
 		F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
 		F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A318531640002AE0A3 /* CoreGraphics.framework */; };
 		F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35A4D05818CD41660047DA9C /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		35A4D05918CD41660047DA9C /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 		F41C809E18531640002AE0A3 /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41C80A118531640002AE0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F41C80A318531640002AE0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +175,8 @@
 				F41C80A818531640002AE0A3 /* Supporting Files */,
 				F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */,
 				F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */,
+				35A4D05818CD41660047DA9C /* RecipeDetailViewController.h */,
+				35A4D05918CD41660047DA9C /* RecipeDetailViewController.m */,
 			);
 			name = RecipeApp;
 			path = CustomTable;
@@ -325,6 +330,7 @@
 				F41C80B818531640002AE0A3 /* RecipeTableViewController.m in Sources */,
 				F41C80AE18531640002AE0A3 /* main.m in Sources */,
 				F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */,
+				35A4D05A18CD41660047DA9C /* RecipeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

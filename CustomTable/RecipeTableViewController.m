@@ -8,6 +8,7 @@
 
 #import "RecipeTableViewController.h"
 #import "RecipeTableCell.h"
+#import "RecipeDetailViewController.h"
 
 @interface RecipeTableViewController ()
 
@@ -62,5 +63,13 @@
     return cell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        RecipeDetailViewController *destViewController = segue.destinationViewController;
+        destViewController.recipeName = [recipeNames objectAtIndex:indexPath.row];
+    }
+}
 
 @end
