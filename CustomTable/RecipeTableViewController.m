@@ -63,12 +63,11 @@
     return cell;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        RecipeDetailViewController *destViewController = segue.destinationViewController;
-        destViewController.recipeName = [recipeNames objectAtIndex:indexPath.row];
+        RecipeDetailViewController *dentViewController = segue.destinationViewController;
+        dentViewController.recipeName = [recipeNames objectAtIndex:indexPath.row];
     }
 }
 
